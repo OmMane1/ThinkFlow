@@ -11,20 +11,20 @@ import { EdgeStoreProvider } from "@/lib/edgestore";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Zotion",
+  title: "ThinkFlow",
   description:
-    "The seamless platform where creative and productive work happens.",
+    "Think deeply. Flow freely. Work smart.",
   icons: {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "/logo.svg",
-        href: "/logo.svg",
+        url: "/ThinkFlowLogo.svg",
+        href: "/ThinkFlowLogo.svg",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/logo-dark.svg",
-        href: "/logo-dark.svg",
+        url: "/ThinkFlowLogo-Dark.svg",
+        href: "/ThinkFlowLogo-Dark.svg",
       },
     ],
   },

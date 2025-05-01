@@ -12,13 +12,11 @@ export const Heading = () => {
 
   return (
     <div className="max-w-3xl space-y-4">
-      <h1 className="text-3xl font-bold sm:text-5xl md:text-5xl">
-        Your Ideas💡, Documents📕, & Plans🚀. Welcome to{" "}
-        <span className="underline">Zotion</span>
+      <h1 className="text-2xl font-bold sm:text-4xl md:text-4xl">
+      Your second brain 🧠 for docs 📄, thoughts 💡, and productivity ⚡. This is <span className="underline">ThinkFlow</span>.
       </h1>
       <h2 className="text-base font-medium sm:text-xl">
-        Zotion is the connected workspace where <br /> better, faster work
-        happens.
+      From thoughts to action <br /> ThinkFlow connects your workflow.
       </h2>
       {isLoading && (
         <div className="flex w-full items-center justify-center">
@@ -28,7 +26,7 @@ export const Heading = () => {
       {isAuthenticated && !isLoading && (
         <Button asChild>
           <Link href="/documents">
-            Enter Zotion
+            Enter ThinkFlow
             <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>
@@ -36,7 +34,7 @@ export const Heading = () => {
       {!isAuthenticated && !isLoading && (
         <SignInButton mode="modal">
           <Button>
-            Get Zotion free
+            Get ThinkFlow free
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
         </SignInButton>
